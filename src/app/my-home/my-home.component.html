@@ -1,0 +1,190 @@
+<div class="main">
+  <div class="main-inner">
+    <div class="content">
+      <div class="mt-150">
+        <div class="hero-image">
+          <div class="hero-image-inner" style="background-image: url('assets/img/lawyers.jpg');" alt="Most Reliable Auto Services Near You">
+            <div class="hero-image-content">
+              <div class="container">
+                <h1>All Lawyers</h1>
+                <h1>Most Reliable Lawyers Near You</h1>
+                <p>Find Right Lawyer For Your Legal Issue By Using All Lawyers Serch Engine.</p>
+                <!--<div (click)="redirect()">My page</div>-->
+                <a routerLink="/listing" class="btn btn-primary btn-lg">View Listings</a>
+                <router-outlet></router-outlet>
+                <a href="/listing-map.html" class="btn btn-secondary btn-lg">Submit Your Case</a></div><!-- /.container -->
+            </div><!-- /.hero-image-content -->
+
+            <div class="hero-image-form-wrapper">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-7">
+
+                    <!-- --------------------SEARCH BLOCK----------------------- -->
+                    <app-my-search></app-my-search>
+                    <!-- --------------------SEARCH BLOCK----------------------- -->
+                  </div><!-- /.col-* -->
+                </div><!-- /.row -->
+              </div><!-- /.container -->
+            </div><!-- /.hero-image-form-wrapper -->
+          </div><!-- /.hero-image-inner -->
+        </div><!-- /.hero-image -->
+
+      </div>
+
+      <div class="container">
+        <div class="block background-white fullwidth pt0 pb0">
+          <div class="block background-white fullwidth pt0 pb0">
+            <!-- /.partners -->
+
+            <div class="partners">
+              <a href="#">
+                <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+              </a>
+
+              <a href="#">
+                <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+              </a>
+
+              <a href="#">
+                <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+              </a>
+
+              <a href="#">
+                <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+              </a>
+
+              <a href="#">
+                <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+              </a>
+            </div>
+
+
+
+          </div>
+
+
+        </div><!-- /.page-header --><!-- /.cards-simple-wrapper --><!-- /.page-header -->
+
+        <hr>
+
+
+        <div class="page-header">
+          <h2>Find Lawyer by Perctice areas</h2>
+
+        </div>
+
+        <div class="categories">
+          <ul>
+            <li *ngFor="let category of categories">
+              <app-my-category title="{{ category }}"></app-my-category>
+            </li>
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-category></app-my-category>-->
+            <!--</li>-->
+
+          </ul>
+        </div>
+        <!-- /.categories --><!-- /.Locations -->
+        <hr>
+
+        <div class="partners">
+          <a href="#">
+            <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+          </a>
+
+          <a href="#">
+            <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+          </a>
+
+          <a href="#">
+            <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+          </a>
+
+          <a href="#">
+            <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+          </a>
+
+          <a href="#">
+            <img src="assets/img/Ads/lawyer-name-ad.jpg" alt="Lawyer name" width="180" height="150">
+          </a>
+        </div>
+        <hr>
+
+        <div class="page-header">
+          <h2>Find Lawyer by Location</h2>
+
+        </div>
+
+        <div class="categories">
+          <ul>
+            <li *ngFor="let location of locations">
+              <app-my-location location="{{ location }}"></app-my-location>
+            </li>
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<app-my-location></app-my-location>-->
+            <!--</li>-->
+
+          </ul>
+        </div>
+        <!-- /.categories -->
+
+
+
+        <div class="page-header">
+          <h2></h2>
+
+        </div>
+
+
+
+        <div class="pricings">
+          <div class="row"><!-- /.col-* --><!-- /.col-* --><!-- /.col-* -->
+          </div><!-- /.row -->
+        </div><!-- /.pricings --></div><!-- /.container -->
+
+    </div><!-- /.content -->
+  </div><!-- /.main-inner -->
+</div>

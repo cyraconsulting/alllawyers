@@ -1,0 +1,80 @@
+<header [ngClass]="(pageName ==='main') ? 'header header-transparent': 'header' " >
+  <div class="header-wrapper">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-logo">
+          <a href="index.html">
+            <img [src]="imageName"  alt="Logo">
+            <!--<img src="assets/img/logo-white.png" alt="Logo">-->
+            <span>All Lawyers </span>
+          </a>
+        </div><!-- /.header-logo -->
+        <div class="header-content">
+          <div class="header-bottom">
+            <div class="header-action">
+              <a href="listing-submit.html" class="header-action-inner" title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Add Listing">
+                <i class="fa fa-plus"></i>
+              </a><!-- /.header-action-inner -->
+            </div><!-- /.header-action -->
+            <ul class="header-nav-primary nav nav-pills collapse navbar-collapse">
+              <li>
+                <a href="#">Find a Lawyer <i class="fa fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="#">Category 1</a></li>
+                  <li><a href="#">Category 2</a></li>
+                  <li><a href="#">Category 3</a></li>
+                  <li><a href="#">Category 4</a></li>
+                  <li><a href="#">Category 5</a></li>
+
+                </ul>
+              </li>
+
+              <li class="has-mega-menu ">
+                <a href="#"> My Lawyers<i class="fa fa-chevron-down"></i></a>
+
+                <ul class="mega-menu">
+
+
+                  <li>
+                    <a href="#">Add Your lawyer</a>
+
+                    <ul>
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">Register</a></li>
+                      <li><a href="#">Change Password </a></li>
+                    </ul>
+                  </li>
+
+
+
+                  <li class="hidden-xs">
+                    <div class="special">
+                      <a href="register.html">Sign Up Now</a>
+                    </div><!-- /.special-->
+                  </li>
+                </ul>
+              </li>
+
+
+
+
+
+              <li>
+                <a href="https://www.alllawyers.ca/contact">Contact <i class="fa fa-chevron-down"></i></a>
+
+              </li>
+            </ul>
+
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav-primary">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div><!-- /.header-bottom -->
+        </div><!-- /.header-content -->
+      </div><!-- /.header-inner -->
+    </div><!-- /.container -->
+  </div><!-- /.header-wrapper -->
+</header>
