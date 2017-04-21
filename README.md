@@ -1,2 +1,2 @@
 # alllawyers
-This is a prsonal experince with Angular2
+This is a personal experience with Angularjs2
