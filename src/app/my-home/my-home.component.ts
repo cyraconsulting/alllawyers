@@ -5,7 +5,8 @@ import {LocationService} from "../services/location.service";
 @Component({
   selector: 'app-my-home',
   templateUrl: './my-home.component.html',
-  styleUrls: ['./my-home.component.css']
+  styleUrls: ['./my-home.component.css'],
+  providers:[CategoryService,LocationService]
 })
 export class MyHomeComponent implements OnInit {
 

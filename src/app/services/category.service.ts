@@ -20,4 +20,14 @@ export class CategoryService {
     return categories;
   }
 
+  getSubCategoris(category){
+    let subCategories = {
+      'category1' : ['a1','b1'],
+      'catrgory2' : ['a2','b2'],
+      'catrgory3' : ['a3','b3'],
+      'catrgory4' : ['a4','b4'],
+      'catrgory5' : ['a5','b5']
+    }
+  }
+
 }
